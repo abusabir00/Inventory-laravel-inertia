@@ -1,0 +1,58 @@
+/vendor/
+!composer.json
+!composer.lock
+
+/node_modules/
+!package.json
+!package-lock.json
+!pnpm-lock.yaml
+!yarn.lock
+
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+/.env
+/.env.*
+/.env.backup
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Debugbar and Laravel telescope
+/storage/debugbar
+/storage/telescope
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache and logs
+/.phpunit.result.cache
+.php_cs.cache
+
+# Deployment files
+homestead.yaml
+Homestead.json
+*.log
+
+# Testing
+/tests/.phpunit.result.cache
+
+# Laravel Mix and Vite
+/public/hot
+/public/mix-manifest.json
+/public/vite-manifest.json
+
+# Miscellaneous
+.env.testing
+.env.production
