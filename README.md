@@ -30,12 +30,18 @@ This project is a **Laravel 11** application that provides CRUD functionality fo
 4. **Create Product**  
    ![Create Product](screen/4.png)
 
-5. **CSV Export Notification**  
-   ![CSV Export](screen/5.png)
+5. ** Product List
+   ![Product List](screen/5.png)
+
+5. **Test
+   ![Test](screen/6.png)
 
 ### Video Walkthrough
-[Watch the Full Demo](screen/v.mp4)
+[Watch the Full Demo](screen/v.mov)
 
+## CSV Export API end-point
+
+http://127.0.0.1:8000/api/export-products
 ---
 
 ## Installation
